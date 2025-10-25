@@ -37,7 +37,7 @@ const App = () => {
         darkMode ? "bg-gray-900 text-black" : "bg-gray-100 text-gray-900"
       }`}
     >
-      <h1 className="text-4xl font-bold mb-6">COUNTER APP</h1>
+      <h1 className="text-4xl font-bold mb-6 text-red-800">COUNTER APP</h1>
 
       <div className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-8 text-center w-80 transition">
         <h2 className="text-6xl font-semibold mb-6">{count}</h2>
