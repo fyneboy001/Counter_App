@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div
       className={`min-h-screen flex flex-col items-center justify-center transition-all duration-500 ${
-        darkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"
+        darkMode ? "bg-gray-900 text-black" : "bg-gray-100 text-gray-900"
       }`}
     >
       <h1 className="text-4xl font-bold mb-6">COUNTER APP</h1>
@@ -91,7 +91,7 @@ const App = () => {
         <div className="mt-6">
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="bg-purple-500 hover:bg-purple-600 text-black px-4 py-2 rounded-lg transition"
+            className="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-lg transition"
           >
             Toggle {darkMode ? "Light" : "Dark"} Mode
           </button>
